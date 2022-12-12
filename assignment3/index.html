@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link id="icon" rel="icon" href="">
+
+    <title>Conditional Design Assignment 3</title>
+
+  </head>
+  <body>
+    <main>
+    </main>
+    
+    <nav id="searchBar">
+      <input id="city" value="St. Louis">
+
+      <span id="submit" class="material-symbols-outlined">
+        search
+      </span>
+    </nav>
+
+    <div id="info">
+
+      <button id="close" class="btn">&lt;</button>
+      <button id="expand" class="btn">></button>
+
+      <span id="cloudGroup">
+        <strong>CLOUD</strong>
+        <span id="cloud" class="num"></span>
+        <span class="context">represented by the number of circles</span>
+      </span>
+      
+      <div id="vis">
+
+        <span>
+          <strong>VISIBILITY</strong>
+          <span id="visibility" class="num"></span>
+        <span class="context">represented by the value of each circle</span>
+        </span>
+
+      </div>
+
+      <div id="temp">
+        <span>
+          <strong>TEMPERATURE</strong>
+          <span class="num" id="tempRange"></span>
+          <span class="context">represented by the background color gradient</span>
+        </span>
+      </div>
+
+
+    </div>
+
+
+    <span class="tooltiptext">Tooltip text</span>
+
+
+
+
+    <div class="container">
+      <div class="col-lg-12">
+        <div id="chart-area">
+
+        </div>
+      </div>
+    </div>
+
+    <script src="jquery.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+	  <script src="d3.min.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>
